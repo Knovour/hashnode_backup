@@ -66,16 +66,18 @@
     align-items: center;
   flex: 1;
   width: 100px;
+    min-width: 100px;
   height: 100px;
+    min-height: 100px;
   margin: 24px;
   border: 1px solid orange;
   padding: 24px;
+  color: #333;
   background-image: '';
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   box-shadow: none;
-  color: #333;
   /* 隨意 */
   font-size: 12px;
   font-weight: bold;
