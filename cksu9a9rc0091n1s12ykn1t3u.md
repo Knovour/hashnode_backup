@@ -6,4 +6,4 @@
 
 ![Frame 2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1630062546276/fCWChUGvG.png)
 
-> 本文亦發布於[方格子](https://vocus.cc/article/6127a921fd897800012417e1)
+> 本文同時發布於[方格子](https://vocus.cc/article/6127a921fd897800012417e1)
