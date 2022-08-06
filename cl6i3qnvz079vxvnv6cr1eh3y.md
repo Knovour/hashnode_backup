@@ -13,11 +13,8 @@
 %[https://github.com/qmk/qmk_firmware/issues/15178#issuecomment-1032284061]
 %[https://www.reddit.com/r/Keychron/comments/tn7rmw/comment/i25a63c/]
 
-### 二、小麥注音在打字快時按三聲的部分不是沒出現就是出現兩次
-目前改安裝威注音輸入法沒有遇到相同狀況
-
-#### 參考來源
-- [vChewing 威注音輸入法](https://vchewing.github.io/README.html)
+### 二、在打注音時按三聲的部分不是沒出現就是出現兩次
+有時沒事有時有事，目前找不到規律
 
 ### 三、威注音與 Dvorak 鍵盤配置衝突
 在 Mac 我用 `Dvorak - QWERTY ⌘` 鍵盤配置，在 VSCode 下按 Capslock 切回英文輸入按 Command 鍵時切不回 qwerty 配置
@@ -26,4 +23,5 @@
 ![截圖 2022-08-07 上午12.11.56.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1659802404204/TFz9NV2hU.jpg align="left")
 
 #### 參考來源
+- [vChewing 威注音輸入法](https://vchewing.github.io/README.html)
 %[https://stackoverflow.com/questions/59302499/vs-code-has-wrong-keyboard-shortcut-layout]
