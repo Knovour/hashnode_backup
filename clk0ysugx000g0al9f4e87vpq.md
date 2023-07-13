@@ -225,7 +225,7 @@ tags: frontend-development, backend-development, full-stack-development
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💬</div>
-<div data-node-type="callout-text">額外補充</div>
+<div data-node-type="callout-text">備註</div>
 </div>
 
 * 若要使用的話，我會傾向於把核心[從 Express 換成 Fastify](https://docs.nestjs.com/techniques/mvc#fastify)，除了 Express 現在是養老模式以外，Fastify 對 template engine 的參數設定的整合也比較好
@@ -263,6 +263,8 @@ tags: frontend-development, backend-development, full-stack-development
     
 * 不是 Express 套皮
     
+* [開發者親測，效能與 Fastify 相當](https://twitter.com/AmanVirk1/status/1598717428812611584)
+    
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">🤌</div>
@@ -274,9 +276,7 @@ tags: frontend-development, backend-development, full-stack-development
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💬</div>
-<div data-node-type="callout-text">額外補充</div>
+<div data-node-type="callout-text">備註</div>
 </div>
 
 * [目前正開發 6 版中](https://github.com/adonisjs/core/discussions/4184)，想試的可以再等等
-    
-* [開發者親測，效能與 Fastify 相當](https://twitter.com/AmanVirk1/status/1598717428812611584)
