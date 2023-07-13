@@ -46,6 +46,8 @@ tags: frontend-development, backend-development, full-stack-development
     
 * 使用 js library 大多不需要像 React 那樣繞來繞去，或是得找額外打包好的 xxx-react 套件，直接使用即可，所以不存在什麼「生態圈太小」的說法
     
+* 我再也不想寫 jsx 了
+    
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">🤌</div>
@@ -53,6 +55,8 @@ tags: frontend-development, backend-development, full-stack-development
 </div>
 
 * 數據綁定方面用了很多語法糖，compiler 做掉了很多東西，所以初次使用在這方面會需要一點「想像力」
+    
+* 說實話，這連缺點也算不上
     
 
 <div data-node-type="callout">
@@ -221,6 +225,8 @@ tags: frontend-development, backend-development, full-stack-development
 </div>
 
 * 跟 Express、Koa 一樣屬於輕量型的 framework，對於專案結構沒有太嚴格的規劃。若不定義好結構容易跟以前一樣程式碼越多架構越亂
+    
+* 不理解為什麼需要包 rxjs？
     
 
 <div data-node-type="callout">
