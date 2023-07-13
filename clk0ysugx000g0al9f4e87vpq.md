@@ -10,13 +10,13 @@ tags: frontend-development, backend-development, full-stack-development
 
 這兩年都用 [Elixir](https://elixir-lang.org/) + [Phoenix](https://www.phoenixframework.org/) + LiveView 在開發網站，遠離雜亂的 js 生態圈。最近剛好因為有相關需求，所以就大概看一下有哪些 js library 跟 framework，有興趣的就大概摸一下，簡單寫個心得
 
-這篇文章寫了三種 TodoMVC 組合可供參考
+為了這篇文章寫了三種 TodoMVC 組合供參考
 
 * [Astro + Svelte](https://github.com/Knovour/astro-svelte-todomvc)
     
-* [htmx + Alpine + Nest.js](https://github.com/Knovour/htmx-alpine-nestjs-todomvc)
+* [htmx + Alpine (data) + Nest.js](https://github.com/Knovour/htmx-alpine-nestjs-todomvc)
     
-* [htmx + Alpine + Adonis.js](https://github.com/Knovour/htmx-alpine-adonis-todomvc)
+* [htmx + Alpine (store) + Adonis.js](https://github.com/Knovour/htmx-alpine-adonis-todomvc)
     
 
 ## 前端
