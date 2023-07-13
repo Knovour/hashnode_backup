@@ -4,7 +4,7 @@ datePublished: Thu Jul 13 2023 09:45:45 GMT+0000 (Coordinated Universal Time)
 cuid: clk0ysugx000g0al9f4e87vpq
 slug: some-js-library-and-framework
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689241398916/b7176484-bd08-4fbe-bff4-a48f21d29a00.jpeg
-tags: frontend, backend
+tags: frontend-development, backend-development, full-stack-development
 
 ---
 
