@@ -40,7 +40,7 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">優點</div>
 </div>
 
-* 同樣的功能，Svelte 可以用少量的程式碼實現，沒有太多冗餘的 function
+* 同樣的功能，Svelte 可以[用少量的程式碼實現](https://twitter.com/fireship_dev/status/1675359786463031297)，沒有太多冗餘的 function
     
 * 從 jQuery 轉到這些前端大坑後，Svelte 是少數有帶給我所謂的「良好的開發體驗」的；上一個是 [Elm](https://elm-lang.org/)，可惜他死透了
     
@@ -62,8 +62,6 @@ tags: frontend-development, backend-development, full-stack-development
 
 * [SvelteJS: My ecosystem is bigger than yours](https://hackmd.io/@Wg20j1S6Q8m8uV7j44GixQ/r1RKQMdt3)
     
-
-%[https://twitter.com/fireship_dev/status/1675359786463031297] 
 
 %[https://youtu.be/Qnpce8hwn58] 
 
@@ -281,6 +279,4 @@ tags: frontend-development, backend-development, full-stack-development
 
 * [目前正開發 6 版中](https://github.com/adonisjs/core/discussions/4184)，想試的可以再等等
     
-* 開發者親測，效能與 Fastify 相當
-    
-    %[https://twitter.com/AmanVirk1/status/1598717428812611584]
+* [開發者親測，效能與 Fastify 相當](https://twitter.com/AmanVirk1/status/1598717428812611584)
