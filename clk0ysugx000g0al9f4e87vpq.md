@@ -85,7 +85,7 @@ tags: frontend-development, backend-development, full-stack-development
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689217231028/b4e14ea9-1037-4bcb-8160-33fc0a678d6b.jpeg align="center")
     
-* 除了產生一般的靜態 html 外，還可以打包成 middleware 給 express、fastify 或線上 server 做 SSR 用，十分聰明的做法
+* 除了產生一般的靜態 html 外，還可以打包成 middleware 給 Express、Fastify 或線上 server 做 SSR 用，十分聰明的做法
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689216472075/2cdfb4d1-867a-4de9-b5c6-775299affb90.jpeg align="center")
     
