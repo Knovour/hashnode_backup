@@ -1,5 +1,6 @@
 ---
 title: "惡補一下 js 的 library 跟 framework"
+seoDescription: "這兩年都用 Elixir + Phoenix + LiveView 在開發網站，遠離雜亂的 js 生態圈。最近剛好因為有相關需求，所以就大概看一下有哪些 js library 跟 framework，有興趣的就大概摸一下，寫個粗淺的心得"
 datePublished: Thu Jul 13 2023 09:45:45 GMT+0000 (Coordinated Universal Time)
 cuid: clk0ysugx000g0al9f4e87vpq
 slug: some-js-library-and-framework
