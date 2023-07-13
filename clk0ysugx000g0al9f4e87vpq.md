@@ -8,7 +8,7 @@ tags: frontend-development, backend-development, full-stack-development
 
 ---
 
-這兩年都用 [Elixir](https://elixir-lang.org/) + [Phoenix](https://www.phoenixframework.org/) + LiveView 在開發網站，遠離雜亂的 js 生態圈。最近剛好因為有相關需求，所以就大概看一下有哪些 js library 跟 framework，有興趣的就大概摸一下，簡單寫個心得
+這兩年都用 [Elixir](https://elixir-lang.org/) + [Phoenix](https://www.phoenixframework.org/) + LiveView 在開發網站，遠離雜亂的 js 生態圈。最近剛好因為有相關需求，所以就大概看一下有哪些 js library 跟 framework，有興趣的就大概摸一下，寫個粗淺的心得
 
 為了這篇文章寫了三種 TodoMVC 組合供參考
 
