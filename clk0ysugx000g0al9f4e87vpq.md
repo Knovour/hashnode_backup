@@ -263,10 +263,8 @@ tags: frontend-development, backend-development, full-stack-development
     
 * 自帶的 [edge template](https://docs.adonisjs.com/guides/views/introduction) 跟 [framework 的語法糖](https://docs.adonisjs.com/guides/views/components#components-as-tags)結合有不錯的開發體驗
     
-* 不是 Express 套皮，效率與 Fastify 相當
+* 不是 Express 套皮
     
-
-%[https://twitter.com/AmanVirk1/status/1598717428812611584?lang=en%5D] 
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">🤌</div>
@@ -282,3 +280,7 @@ tags: frontend-development, backend-development, full-stack-development
 </div>
 
 * [目前正開發 6 版中](https://github.com/adonisjs/core/discussions/4184)，想試的可以再等等
+    
+* 開發者親測，效能與 Fastify 相當
+    
+    %[https://twitter.com/AmanVirk1/status/1598717428812611584]
