@@ -40,7 +40,9 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">優點</div>
 </div>
 
-* 同樣的功能，Svelte 可以用少量的程式碼實現
+* 同樣的功能，Svelte 可以用少量的程式碼實現，沒有太多冗餘的 function
+    
+    %[https://twitter.com/fireship_dev/status/1675359786463031297] 
     
 * 從 jQuery 轉到這些前端大坑後，Svelte 是少數有帶給我所謂的「良好的開發體驗」的；上一個是 [Elm](https://elm-lang.org/)，可惜他死透了
     
