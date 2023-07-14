@@ -277,7 +277,7 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">缺點</div>
 </div>
 
-* 或許是客群取向關係，純 js 的開發者的關注度不算高
+* 或許是客群取向關係，純 js 開發者的關注度不算高
     
 
 <div data-node-type="callout">
