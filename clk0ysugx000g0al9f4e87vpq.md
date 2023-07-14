@@ -62,8 +62,10 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">延伸閱讀</div>
 </div>
 
-* [SvelteJS: My ecosystem is bigger than yours](https://hackmd.io/@Wg20j1S6Q8m8uV7j44GixQ/r1RKQMdt3)（好文章，直接戳到痛點）
+* [SvelteJS: My ecosystem is bigger than yours](https://hackmd.io/@Wg20j1S6Q8m8uV7j44GixQ/r1RKQMdt3)（直戳痛點的好文）
     
+
+%[https://www.youtube.com/watch?v=bh-e700IlmQ] 
 
 %[https://youtu.be/Qnpce8hwn58] 
 
