@@ -31,7 +31,7 @@ tags: frontend-development, backend-development, full-stack-development
 
 %[https://www.youtube.com/watch?v=MnpuK0MK4yo] 
 
-其實在轉用 Elixir 之前就用過 Svelte 寫過一兩個 side project；沒記錯的話，那時因為適逢 Vue2 到 Vue3 過渡期，就連 Nuxt.js 這 Vue 的最大推手也遲遲未有升級支援，而 React Hooks 帶來的開發體驗對我來說並沒有好多少，對於這兩大生態圈感到疲勞，所以就跳到 Svelte 去了
+其實在轉用 Elixir 之前就用過 Svelte 寫過一兩個 side project；沒記錯的話，那時因為適逢 Vue 從 2 到 3 過渡期，就連 Nuxt.js 這 Vue 的最大推手也遲遲未有升級支援，而 React Hooks 帶來的開發體驗對我來說並沒有好多少，對於這兩大生態圈感到疲勞，所以就跳到 Svelte 去了
 
 %[https://twitter.com/yuxiyou/status/1676093893979545608] 
 
@@ -54,9 +54,7 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">缺點</div>
 </div>
 
-* 數據綁定方面用了很多語法糖，compiler 做掉了很多東西，所以初次使用在這方面會需要一點「想像力」
-    
-* 說實話，這連缺點也算不上
+* 數據綁定方面用了很多語法糖，compiler 做掉了很多東西，所以初次使用在這方面會需要一點「想像力」。說實話，這連缺點也算不上
     
 
 <div data-node-type="callout">
@@ -85,7 +83,7 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">優點</div>
 </div>
 
-* 由於框架特性，我可以把不需要用 js 的 components 寫成 astro 檔，剩下的檔案就幾乎是確定需要 js 邏輯操作的部分了，方便重點關注
+* 由於框架特性，我可以把不需要 js 的 components 寫成 astro 檔，剩下的檔案就幾乎是確定需要 js 邏輯操作的部分了，方便重點關注
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689217231028/b4e14ea9-1037-4bcb-8160-33fc0a678d6b.jpeg align="center")
     
@@ -103,7 +101,7 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">缺點</div>
 </div>
 
-* Astro 可以包其他 jsx 檔，但 jsx 不能反包 astro 檔，雖然可以[繞點遠路](https://docs.astro.build/en/core-concepts/framework-components/#can-i-use-astro-components-inside-my-framework-components)，但還是稍嫌可惜（以 React 為例）
+* Astro 可以包其他 framework 的檔案，但不能反包 astro 檔，雖然可以[繞點遠路](https://docs.astro.build/en/core-concepts/framework-components/#can-i-use-astro-components-inside-my-framework-components)，但還是稍嫌可惜
     
 
 <div data-node-type="callout">
@@ -122,7 +120,7 @@ tags: frontend-development, backend-development, full-stack-development
 
 ## 全端
 
-首先給下面要介紹的東西先做個資訊補充，除了前端 framework 是吃後端的 json 再更新部分 html 外，也有一種是讓後端直接生成部分 html 丟給瀏覽器做局部更新的；好處是前端需要寫的 js 極少，甚至可以把 form validate 直接讓後端處理，不需要 js 做一次 validate，後端再做一次
+首先給下面要介紹的東西先做個資訊補充，除了前端 framework 是吃後端的 json 再更新部分 html 外，也有一種是讓後端直接生成部分 html 丟給瀏覽器做局部更新的；好處是前端需要寫的 js 極少，甚至可以直接讓後端處理 form validate，不需要 js 做一次，後端再做一次
 
 舉凡 Laravel 的 [Livewire](https://laravel-livewire.com/)、RoR 的 [Hotwire](https://hotwired.dev/)、Phoenix 的 LiveView 都是此類
 
@@ -144,7 +142,7 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">優點</div>
 </div>
 
-* 如果你使用的後端 framework 沒有像上述選項有自家的高度整合方案（比如 Django），htmx 會是一個很好的通用方案
+* 如果你使用的後端 framework 沒有像上述選項有自家的高度整合方案（如 Django、Express），htmx 會是一個很好的通用方案
     
 
 <div data-node-type="callout">
