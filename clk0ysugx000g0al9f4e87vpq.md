@@ -242,6 +242,8 @@ tags: frontend-development, backend-development, full-stack-development
     
 * 如今大部分的 template engine 都沒在更新或是僅有維護了，雖然應該也沒人在用了
     
+* Nest.js 給我一種「如果 Express 用 TypeScript 重寫會是什麼樣？」的感覺
+    
 
 ### Adonis.js
 
@@ -250,7 +252,7 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text"><a target="_blank" rel="noopener noreferrer nofollow" href="https://adonisjs.com/" style="pointer-events: none">https://adonisjs.com/</a></div>
 </div>
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689231293885/67cb521c-f0a1-411c-b0d8-1d6a71da3fa2.png align="center")
+%[https://youtu.be/mM1o0d-4OOU] 
 
 這個 framework 初衷是讓 PHP 用戶方便轉移到 Node，所以大量參考了 Laravel 的結構
 
