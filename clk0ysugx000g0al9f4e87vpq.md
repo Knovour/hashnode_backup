@@ -9,7 +9,7 @@ tags: frontend-development, backend-development, full-stack-development
 
 ---
 
-這兩年都用 [Elixir](https://elixir-lang.org/) + [Phoenix](https://www.phoenixframework.org/) + LiveView 在開發網站，遠離雜亂的 js 生態圈。最近剛好因為有相關需求，所以就大概看一下有哪些 js library 跟 framework，有興趣的就大概摸一下，寫個粗淺的心得
+這兩年都用 [Elixir](https://elixir-lang.org/) + [Phoenix](https://www.phoenixframework.org/) + LiveView 在開發網站，遠離雜亂的 js 生態圈。最近剛好因為有相關需求，所以就大概看一下有哪些沒見過的 js library 跟 framework，有興趣的就大概摸一下，寫個粗淺的心得
 
 為了這篇文章寫了三種 TodoMVC 組合供參考
 
@@ -85,7 +85,7 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">優點</div>
 </div>
 
-* 由於框架特性，我可以把不需要 js 的 components 寫成 astro 檔，剩下的檔案就幾乎是確定需要 js 邏輯操作的部分了，方便重點關注
+* 由於框架特性，我可以把不需要 js 的 components 寫成 astro 檔，剩下的檔案就幾乎是確定需要 js 邏輯操作、動態渲染的部分了，方便重點關注
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689217231028/b4e14ea9-1037-4bcb-8160-33fc0a678d6b.jpeg align="center")
     
@@ -226,7 +226,9 @@ tags: frontend-development, backend-development, full-stack-development
 
 * 跟 Express、Koa 一樣屬於輕量型的 framework，對於專案結構沒有太嚴格的規劃。若不定義好結構容易跟以前一樣程式碼越多架構越亂
     
-* 不理解為什麼需要包 rxjs？
+* 因為是包 Express/Fastify 的關係，所以出錯時可能還要釐清一下是哪邊的問題
+    
+* 不理解為什麼需要包 RxJS？
     
 
 <div data-node-type="callout">
@@ -234,15 +236,15 @@ tags: frontend-development, backend-development, full-stack-development
 <div data-node-type="callout-text">備註</div>
 </div>
 
-* 若要使用的話，我會傾向於把核心[從 Express 換成 Fastify](https://docs.nestjs.com/techniques/mvc#fastify)，除了 Express 現在是養老模式以外，Fastify 對 template engine 的參數設定的整合也比較好
+* 若要使用的話，我會傾向於把核心[從 Express 換成 Fastify](https://docs.nestjs.com/techniques/mvc#fastify)，除了 Express 現在是養老狀態以外，Fastify 對 template engine 的參數設定的整合也比較好
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689229093554/c6176eda-e276-4204-8621-0096393727b3.jpeg align="center")
     
-    Express 就沒法像這樣寫
+    > Express 就沒法像這樣寫
     
 * 如今大部分的 template engine 都沒在更新或是僅有維護了，雖然應該也沒人在用了
     
-* Nest.js 給我一種「如果 Express 用 TypeScript 重寫會是什麼樣？」的感覺
+* Nest.js 給我一種「如果 Express 用 TypeScript 重寫會是什麼樣？」為出發點的感覺
     
 
 ### Adonis.js
