@@ -133,7 +133,7 @@ AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707784820825/8f9e88b9-7460-449e-ae8f-9c2b9b4db648.png align="center")
 
-另外由於 Fcitx 也是以 Flatpak 的形式安裝，所以以前原生的輸入法設定不再管用，若你需要用 Bottles、Lutris 等來跑 Windows 的軟體，則必須在權限下新增這三個環境變數才能正常打字
+另外由於 Fcitx 也是以 Flatpak 的形式安裝，所以以前原生的輸入法設定不再管用，若你需要用 Bottles、Lutris 等 Wine 方案來跑 Windows 的軟體，則必須在權限下新增這三個環境變數才能正常打字
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707789238214/d4a3a0c1-883b-4a9c-894e-4cfaddae8ac5.jpeg align="center")
 
@@ -184,7 +184,7 @@ VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化�
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707799445234/b51536b4-3efa-43be-8dc2-e7ae0c8ddb5a.jpeg align="center")
 
-更別說個別的版本還得等官方更新了，有些甚至沒有對應的資源，如果要照著弄，還會導致一些語言或 framework 的支援還得特地連到 flatpak 之外的環境才行，對於 Vue、React 等前端開發只是自找麻煩
+更別說個別的版本還得等官方更新了，有些甚至沒有對應的資源，如果要照著弄，還會導致一些語言或 framework 的支援還得特地連到 Flatpak 之外的環境才行，對於 Vue、React 等前端開發只是自找麻煩
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707800329962/b35322cf-1c02-482f-9455-c27029d6d4c6.jpeg align="center")
 
@@ -229,7 +229,7 @@ VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化�
 
 ### 瀏覽器
 
-當初沒優化時用 Brave 瀏覽器一天當幾兩三次，用 Edge 兩三天才會當一次
+當初沒優化時用 Brave 瀏覽器一天當機兩三次，用 Edge 兩三天才會當一次
 
 不過 Edge 在開 Youtube 時界面都會卡很久才載入，跟前陣子的 [AdBlock 事件](https://www.techbang.com/posts/112561-google-youtube-browsers-adblocks)無關，就是單純超卡。後來發現 [Floorp](https://floorp.app/) 這個 Firefox 改的瀏覽器，Youtube 載入很正常，目前體驗下來各方面都很不錯，現在是我的預設瀏覽器，而 Edge 頂多在網站開發時才會用到
 
