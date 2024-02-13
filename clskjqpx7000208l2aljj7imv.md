@@ -3,7 +3,7 @@ title: "Steam Deck OLED 小主機調教記錄"
 seoDescription: "將我的 Macbook Pro 換成 Steam Deck OLED"
 datePublished: Tue Feb 13 2024 15:57:14 GMT+0000 (Coordinated Universal Time)
 cuid: clskjqpx7000208l2aljj7imv
-slug: steam-deck-oled
+slug: steam-deck-oled-for-work-pc
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707839698565/2dc009de-49a7-4188-b205-6f787890acda.jpeg
 tags: linux, stream-deck, flatpak
 
