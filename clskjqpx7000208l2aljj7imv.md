@@ -219,7 +219,7 @@ VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化�
 
 ### 圖片管理
 
-[Eagle](https://eagle.cool/) 目前還可以用 Wine 啟動，瀏覽器附加元件可以正常保存圖片；用 Lutris 跑比用 Bottles 正常，在 Bottles 底下有些圖會跑不出來，但 Lutris 會讓桌面 icon 無法點擊，我很懷疑接下來要出的 4.0 是否也能正常運作
+[Eagle](https://eagle.cool/) 目前還可以用 Wine 啟動，瀏覽器附加元件可以正常保存圖片；用 Lutris 跑比用 Bottles 正常，在 Bottles 底下有些圖會跑不出來，但 Lutris 會讓桌面 icon 無法點擊，我很懷疑接下來要出的 4.0 是否也能正常運行
 
 %[https://twitter.com/eagle_app/status/1718950644411932723] 
 
