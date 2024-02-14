@@ -276,7 +276,7 @@ Line 用 Bottles 跑比較正常，執行器用 sys-wine，也能正常打字，
 <div data-node-type="callout-text"><strong>Yay 安裝</strong></div>
 </div>
 
-* Shutter：截圖工具，內建的 Spectacle 不太好用，在螢幕有設定等比例放大的狀況下視窗截圖有機會跑掉；但 Shutter 正常，只是沒有 Flatpak 版本
+* [Shutter](https://shutter-project.org/)：截圖工具，內建的 Spectacle 不太好用，在螢幕有設定等比例放大的狀況下視窗截圖有機會跑掉；但 Shutter 正常，只是沒有 Flatpak 版本
     
 
 <div data-node-type="callout">
@@ -284,9 +284,9 @@ Line 用 Bottles 跑比較正常，執行器用 sys-wine，也能正常打字，
 <div data-node-type="callout-text"><strong>Flatpak</strong></div>
 </div>
 
-* YOGA Image Optimizer：Linux 版的 [ImageOptim](https://imageoptim.com/mac) 圖片壓縮程式
+* [YOGA Image Optimizer](https://yoga.flozz.org/)：Linux 版的 [ImageOptim](https://imageoptim.com/mac) 圖片壓縮程式
     
-* Flatsweep：幫你清理 Flatpak 套件移除後留下來的檔案
+* [Flatsweep](https://github.com/giantpinkrobots/flatsweep)：幫你清理 Flatpak 套件移除後留下來的檔案
     
 * KWalletManager：Discord 之類的會要求啟用 KWallet
     
