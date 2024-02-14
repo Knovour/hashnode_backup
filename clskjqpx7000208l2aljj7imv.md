@@ -25,7 +25,7 @@ tags: linux, stream-deck, flatpak
 
 ## 系統設定
 
-在開始前先在 konsole 裡面輸入 `passwd` 設好 root 密碼
+在開始前先在 Konsole 裡面輸入 `passwd` 設好 root 密碼
 
 ### 優化
 
@@ -36,7 +36,7 @@ tags: linux, stream-deck, flatpak
 
 %[https://www.youtube.com/watch?v=C9EjXYZUqUs] 
 
-[CryoUtilities](https://github.com/CryoByte33/steam-deck-utilities) 算是當小主機用之前必須先弄的優化方案，安裝好後打開輸入密碼，直接點 Recommended 就行
+CryoUtilities 算是當小主機用之前必須先弄的優化方案，安裝好後打開輸入密碼，直接點 Recommended 就行
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707746149105/169bf1a3-43a8-4c79-9e3d-190b6e0a6614.jpeg align="center")
 
@@ -243,9 +243,9 @@ Edge
 
 Floorp
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707835576100/f6ed7a39-0a68-4073-b52f-0c3b50be6990.jpeg align="center")
+![Floorp](https://cdn.hashnode.com/res/hashnode/image/upload/v1707835576100/f6ed7a39-0a68-4073-b52f-0c3b50be6990.jpeg align="center")
 
-你可能會在 Discover 裡發現他叫 Floorp Lightning，這是停止更新的版本，遇到的話照上面套件管理的地方把 flathub 來源重新加一次應該就正常了
+你可能會在 Discover 裡發現他叫 Floorp Lightning，這是停止更新的版本，遇到的話照上面套件管理的地方把 Flathub 來源重新加一次應該就正常了
 
 另外記得打開瀏覽器的使用者目錄讀寫權限，否則可能沒法拖拉檔案上傳
 
