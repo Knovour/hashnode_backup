@@ -96,16 +96,14 @@ AUR 的套件管理器，照著 Binary 的方案安裝即可，但鑑於上述�
 
 非 GUI 相關套件的最佳選擇，會安裝在 home 資料夾底下，所以重灌後不用擔心會洗掉，缺點是套件相依性會照 brew 的設定走，所以有可能會因為一個套件而連帶裝了大量相依的東西
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707751409722/4908f350-9ffe-4860-9944-71245ef513ad.jpeg align="center")
-
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">📦</div>
 <div data-node-type="callout-text"><strong>Zap: </strong><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/srevinsaju/zap" style="pointer-events: none">https://github.com/srevinsaju/zap</a></div>
 </div>
 
-AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [Heptabase](https://heptabase.com/)），所以只能選擇這個方案，一方面也是因為他可以直接抓 GitHub 打包的版本。當然你也可以直接用 yay 裝 aur 裡打包的 AppImage，但 zap 也會把檔案放到 home 裡，也會幫你更新 menu，所以自行取捨吧
+AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [Heptabase](https://heptabase.com/)），所以只能選擇這個方案，一方面也是因為他可以直接抓 GitHub 打包的版本。當然你也可以直接用 yay 裝 AUR 裡打包的 AppImage，但 zap 也會把檔案放到 home 裡，也會幫你更新 menu，所以自行取捨吧
 
-雖然 AUR 裡有 zap-bin，但該版本過於老舊，bug 非常多，建議裝 GitHub 裡的 install.sh 最新打包版本
+雖然 AUR 裡有 zap-bin，但該版本過於老舊，bug 非常多，建議裝 GitHub 裡的 `install.sh` 最新打包版本
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">📦</div>
@@ -123,7 +121,7 @@ AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [
 
 ### 輸入法
 
-之前在 Mac 是使用[威注音輸入法](https://github.com/vChewing/vChewing-macOS)，對 Dvorak 佈局有很完整的支援，十分推薦。遷移到 Steam Deck 之後原本是用 Fcitx5 的新酷音，但他對該佈局的支援不包含標點符號的位置，逗號、句號那些都跟 Dvorak 一樣在鍵盤左半邊，而且頓號打不出來
+之前在 Mac 是使用[威注音輸入法](https://github.com/vChewing/vChewing-macOS)，對 Dvorak 佈局有很完整的支援，十分推薦。遷移到 Steam Deck 之後原本是用 Fcitx 的新酷音，但他對該佈局的支援不包含標點符號的位置，逗號、句號那些都跟 Dvorak 一樣在鍵盤左半邊，而且頓號打不出來
 
 後來改用 RIME 的中州韻輸入法，除了自訂成 Dvorak 對應外，標點符號也有做對應的變動
 
@@ -162,17 +160,19 @@ AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [
 
 ### Shell
 
-雖然 [Fish](https://fishshell.com/) 在這幾年關注度有提高，但我個人比較喜歡 [Nushell](https://www.nushell.sh/)，不過 Nu 目前尚未 1.0，許多 config 語法會因為版本更新而必須調整，加上 Steam Deck 提供的版本並非最新版，所以無法直接套用從 Mac 備份過來的設定檔，暫時用 Fish
+雖然 [Fish](https://fishshell.com/) 在這幾年關注度有提高，但我個人比較喜歡 [Nushell](https://www.nushell.sh/)，不過 Nu 目前尚未 1.0，許多 config 語法會因為版本更新而必須調整，加上 Steam Deck 提供的版本並非最新版，所以無法直接套用從 Mac 備份過來的設定檔，只能用 brew 裝
 
-另外將原本用的美化方案 [Oh My Posh](https://ohmyposh.dev/) 改成比較輕量的 [Starship](https://starship.rs/)，直接裝 pacman 提供的版本就好，不過 Starship 本身的提示功能 Fish 也有，所以直接用 zsh 應該也沒什麼差
+另外將原本用的美化方案 [Oh My Posh](https://ohmyposh.dev/) 改成比較輕量的 [Starship](https://starship.rs/)，而 Starship 本身也有提示功能，所以不想折騰的直接用 Zsh 也行
 
 另外像 Konsole、Yakuake 等預設要用哪個 shell 不是用 chsh 調整，而是要去設定重新指定路徑，WezTerm 也一樣
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707874698040/d9cfd8b0-0124-4e15-94f5-509172c15336.jpeg align="center")
 
 ### IDE
 
 VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化前打開來還是能正常使用，反倒是另一個主打 Rust 開發的 [Lapce](https://lapce.dev/) 我一打開來就當機，開了五次當了四次
 
-不過不知道是否是因為 Flatpak 的影響，VSCode 的 terminal 抓到的 shell 不是外部的，所以現在用 Yakuake 代替
+不過大概是因為 Flatpak 的影響，VSCode 的 terminal 抓到的 shell 不是外部的，所以現在用 Yakuake 代替
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707797623380/9492afb3-51b3-4f26-8f50-a4e00eb38a43.jpeg align="center")
 
@@ -215,7 +215,7 @@ VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化�
 
 好幾年前因為有做海報、名片等設計需求所以有買 [Affinity 三兄弟](https://affinity.serif.com)，雖然我的功力跟需求並沒有到非常需要專業軟體，但當時 Inkscape 很不穩定，Scribus 很過時，也是不爽 Adobe 開始推訂閱制所以買了 Affinity 來支持
 
-而 Affinity 的產品用 Wine 跑不起來，現在也只剩名片有在更新內容，所以就先在 Affinity 把他匯出成 svg 轉到 Inkscape 處理，本來是想讓 Scribus 接手，但 Scribus 用起來感受實在是太糟糕了，難怪偶爾會看到將能做的東西都先在 Inkscape 做好再匯入的建議，而 Inkscape 如今也變得很穩定了，加上現在有不少網路服務，所以先這樣撐著
+而 Affinity 的產品用 Wine 跑不起來，現在也只剩名片有在更新內容，所以就先在 Affinity 把他匯出成 svg 轉到 Inkscape 處理，本來是想讓 Scribus 接手，但 Scribus 用起來感受實在是太糟糕了，而 Inkscape 如今也變得很穩定了，Scribus 只要負責匯出就好，加上現在有不少網路服務，所以先這樣撐著
 
 ### 圖片管理
 
@@ -287,3 +287,10 @@ Line 用 Bottles 跑比較正常，執行器用 sys-wine，也能正常打字，
 * Flatsweep：幫你清理 Flatpak 套件移除後留下來的檔案
     
 * KWalletManager：Discord 之類的會要求啟用 KWallet
+    
+
+## 結尾
+
+目前使用下來大致穩定，但每週還是有機會當機一次，不確定到底是我太操還是抽到機王。另外由於 Flatpak 的方案，遇到問題時還得多考慮是不是跟權限設定有關
+
+一般玩家當然不推薦，但對於有在把 Linux 當成個人電腦來用的人來說，算是很有趣的經驗，我不確定我這決定能撐多久，但就現階段來說是滿意的
