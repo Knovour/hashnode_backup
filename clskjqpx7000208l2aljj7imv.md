@@ -71,7 +71,7 @@ VRAM 的部分需要進到 BIOS 裡設定，原本建議是 4GB，但想說我�
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707749275767/c0ce3db2-f68b-450b-876f-11200cc9cbdf.jpeg align="center")
 
-三是官方有對已安裝的套件刪掉部分檔案，比如附圖的 `stdio.h` 是包在 glibc 裡；雖然該套件已安裝，但大部分的檔案都刪掉了，若你裝的套件（比如 aur）或是專案是需要編譯的話則會遇到很大的麻煩，當然你也可以選擇[超暴力解](https://github.com/Jguer/yay/issues/1910)，把所有東西重裝一遍，或是改用 brew 安裝
+三是官方有對已安裝的套件刪掉部分檔案，比如附圖的 `stdio.h` 是包在 glibc 裡；雖然該套件已安裝，但大部分的檔案都刪掉了，若你裝的套件（比如 AUR）或是專案是需要編譯的話則會遇到很大的麻煩，當然你也可以選擇[超暴力解](https://github.com/Jguer/yay/issues/1910)，把所有東西重裝一遍，或是改用 brew 安裝
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707749469834/fb66a15e-e4d9-4167-8c72-e5aa07f6a3ea.jpeg align="center")
 
@@ -215,11 +215,11 @@ VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化�
 
 好幾年前因為有做海報、名片等設計需求所以有買 [Affinity 三兄弟](https://affinity.serif.com)，雖然我的功力跟需求並沒有到非常需要專業軟體，但當時 Inkscape 很不穩定，Scribus 很過時，也是不爽 Adobe 開始推訂閱制所以買了 Affinity 來支持
 
-而 Affinity 的產品用 Wine 跑不起來，現在也只剩名片有在更新內容，所以就先在 Affinity 把他匯出成 svg 轉到 Inkscape 處理，本來是想讓 Scribus 接手，但 Scribus 用起來感受實在是太糟糕了，而 Inkscape 如今也變得很穩定了，Scribus 只要負責匯出就好，加上現在有不少網路服務，所以先這樣撐著
+然而 Affinity 的產品用 Wine 跑不起來，現在也只剩名片有在更新內容，所以就先在 Affinity 把他匯出成 svg 轉到 Inkscape 處理，本來是想讓 Scribus 接手，但 Scribus 用起來感受實在是太糟糕了，而 Inkscape 如今也變得很穩定了，Scribus 只要負責匯出就好，加上現在有不少網路服務，所以先這樣撐著
 
 ### 圖片管理
 
-[Eagle](https://eagle.cool/) 目前還可以用 Wine 啟動，用 Lutris 跑比用 Bottles 正常，在 Bottles 底下有些圖會跑不出來，但 Lutris 會讓桌面 icon 無法點擊，瀏覽器附加元件可以正常保存圖片，但我很懷疑接下來要出的 4.0 是否也能正常運作
+[Eagle](https://eagle.cool/) 目前還可以用 Wine 啟動，瀏覽器附加元件可以正常保存圖片；用 Lutris 跑比用 Bottles 正常，在 Bottles 底下有些圖會跑不出來，但 Lutris 會讓桌面 icon 無法點擊，我很懷疑接下來要出的 4.0 是否也能正常運作
 
 %[https://twitter.com/eagle_app/status/1718950644411932723] 
 
