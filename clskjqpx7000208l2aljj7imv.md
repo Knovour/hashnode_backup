@@ -259,7 +259,7 @@ Line 用 Bottles 跑比較正常，執行器用 sys-wine，也能正常打字，
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">📦</div>
-<div data-node-type="callout-text"><strong>Pacman 安裝</strong></div>
+<div data-node-type="callout-text"><strong>Pacman</strong></div>
 </div>
 
 * kdegraphics-thumbnailers：讓 Dolphin 檔案瀏覽器有圖片縮圖預覽功能
@@ -273,7 +273,7 @@ Line 用 Bottles 跑比較正常，執行器用 sys-wine，也能正常打字，
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">📦</div>
-<div data-node-type="callout-text"><strong>Yay 安裝</strong></div>
+<div data-node-type="callout-text"><strong>Yay</strong></div>
 </div>
 
 * [Shutter](https://shutter-project.org/)：截圖工具，內建的 Spectacle 不太好用，在螢幕有設定等比例放大的狀況下視窗截圖有機會跑掉；但 Shutter 正常，只是沒有 Flatpak 版本
