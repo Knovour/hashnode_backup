@@ -237,14 +237,12 @@ VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化�
 
 更重要的是，Chrome 為基礎的瀏覽器在使用 Picture in Picture 功能時視窗大小有限制，如果把視窗拉到 Steam Deck 裡就會變得很小，而 Firefox 則沒有這個限制，不僅能顯示字幕還能全螢幕，讓我的 Steam Deck 在桌面環境下外接螢幕時有額外用途
 
-> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707835568166/12f8dd5e-dbe0-4181-881e-b8999464fc94.jpeg align="center")
-> 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707835568166/12f8dd5e-dbe0-4181-881e-b8999464fc94.jpeg align="center")
+
 > Edge
-> 
-> ---
-> 
-> ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707835576100/f6ed7a39-0a68-4073-b52f-0c3b50be6990.jpeg align="center")
-> 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707835576100/f6ed7a39-0a68-4073-b52f-0c3b50be6990.jpeg align="center")
+
 > Floorp
 
 你可能會在 Discover 裡發現他叫 Floorp Lightning，這是停止更新的版本，遇到的話照上面套件管理的地方把 Flathub 來源重新加一次應該就正常了
