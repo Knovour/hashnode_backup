@@ -249,6 +249,8 @@ VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化�
 
 另外記得打開瀏覽器的使用者目錄讀寫權限，否則可能沒法拖拉檔案上傳
 
+對有觀看直播的需求但又不是很常互動的人，建議把直播改到 VLC 上觀看，Youtube 可以直接把網址貼上就行，Twitch 的話可以用 [Video m3u8 Sniffer](https://chromewebstore.google.com/detail/akkncdpkjlfanomlnpmmolafofpnpjgn?hl=zh-tw) 或 [The m3u8 Stream Detector](https://addons.mozilla.org/zh-TW/firefox/addon/the-m3u8-stream-detector/) 等附加元件把 m3u8 網址複製下來即可
+
 ### 聊天軟體
 
 Line 用 Bottles 跑比較正常，執行器用 sys-wine，也能正常打字，只是不想看到視窗的話記得縮小或關掉，不然會有殘影在上面
