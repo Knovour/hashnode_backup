@@ -101,9 +101,9 @@ AUR 的套件管理器，照著 Binary 的方案安裝即可，但鑑於上述�
 <div data-node-type="callout-text"><strong>Zap: </strong><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/srevinsaju/zap" style="pointer-events: none">https://github.com/srevinsaju/zap</a></div>
 </div>
 
-AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [Heptabase](https://heptabase.com/)），所以只能選擇這個方案，一方面也是因為他可以直接抓 GitHub 打包的版本。當然你也可以直接用 yay 裝 AUR 裡打包的 AppImage，但 zap 也會把檔案放到 home 裡，也會幫你更新 menu，所以自行取捨吧
+AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [Heptabase](https://heptabase.com/)），所以只能選擇這個方案，一方面也是因為他可以直接抓 GitHub 打包的版本，也會把檔案放到 home 裡，也會幫你更新 menu
 
-雖然 AUR 裡有 zap-bin，但該版本過於老舊，bug 非常多，建議裝 GitHub 裡的 `install.sh` 最新打包版本
+雖然 AUR 裡有 zap-bin，但該版本過於老舊，bug 非常多；GitHub 裡的 `install.sh` 最新打包版本 bug 也不少，所以目前還是丟給 yay 管理
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">📦</div>
@@ -117,6 +117,22 @@ AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [
 * [Installing from FlatHub | Discover](https://trigg.github.io/Discover/install_flathub.html)
     
 * [https://flathub.org/repo/flathub.flatpakrepo](https://flathub.org/repo/flathub.flatpakrepo)
+    
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">📦</div>
+<div data-node-type="callout-text"><strong>Nix:</strong> <a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/NixOS/nix" style="pointer-events: none">https://github.com/NixOS/nix</a></div>
+</div>
+
+Steam Deck 在去年增加了 `/nix` 資料夾，重灌後也可以保留安裝的東西（其實就是連到 `/home/.steamos/offload/nix`），以後 GUI 套件就用 flatpak，CLI 就用 nix
+
+不過 Steam Deck 預設還沒有安裝 nix 指令，看了一下安裝跟操作似乎都比 homebrew 還要麻煩一點，不過既然都要變預設了，有空的時候再研究一下把 brew 安裝的改到 nix 上去
+
+* [Steam Deck 用 nix](https://akarat.xyz/steam-deck-nix/)
+    
+* [You’ll Soon Be Able to Install Nix Packages on Your Steam Deck](https://linuxgamingcentral.com/posts/steamos-getting-nix-support/)
+    
+* [Steam Deck support #7173](https://github.com/NixOS/nix/issues/7173)
     
 
 ### 輸入法
@@ -249,7 +265,7 @@ VSCode 目前還是首選，雖然他是用 Electron，但我在沒有跑優化�
 
 另外記得打開瀏覽器的使用者目錄讀寫權限，否則可能沒法拖拉檔案上傳
 
-對有觀看直播的需求但又不是很常互動的人，建議把直播改到 VLC 上觀看，Youtube 可以直接把網址貼上就行，Twitch 的話可以用 [Video m3u8 Sniffer](https://chromewebstore.google.com/detail/akkncdpkjlfanomlnpmmolafofpnpjgn?hl=zh-tw) 或 [The m3u8 Stream Detector](https://addons.mozilla.org/zh-TW/firefox/addon/the-m3u8-stream-detector/) 等附加元件把 m3u8 網址複製下來即可
+對有觀看直播的需求但又不是很常互動的人，把直播改到 VLC 上觀看可以讓瀏覽器少吃點資源，Youtube 可以直接把網址貼上就行，Twitch 的話可以用 Chrome [Video m3u8 Sniffer](https://chromewebstore.google.com/detail/akkncdpkjlfanomlnpmmolafofpnpjgn?hl=zh-tw) 附加元件把 m3u8 網址複製下來即可
 
 ### 聊天軟體
 
