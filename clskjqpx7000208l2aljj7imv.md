@@ -121,12 +121,12 @@ AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">📦</div>
-<div data-node-type="callout-text"><strong>Nix:</strong> <a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/NixOS/nix" style="pointer-events: none">https://github.com/NixOS/nix</a></div>
+<div data-node-type="callout-text"><strong>Nix:</strong><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/NixOS/nix" style="pointer-events: none">https://github.com/NixOS/nix</a></div>
 </div>
 
-Steam Deck 在去年增加了 `/nix` 資料夾，重灌後也可以保留安裝的東西（其實就是連到 `/home/.steamos/offload/nix`），以後 GUI 套件就用 flatpak，CLI 就用 nix
+Steam Deck 在去年增加了 `/nix` 資料夾，重灌後也可以保留安裝的東西（其實就是連到 `/home/.steamos/offload/nix`），以後 GUI 套件就用 Flatpak，CLI 就用 Nix
 
-不過 Steam Deck 預設還沒有安裝 nix 指令，看了一下安裝跟操作似乎都比 homebrew 還要麻煩一點，不過既然都要變預設了，有空的時候再研究一下把 brew 安裝的改到 nix 上去
+不過 Steam Deck 預設還沒有安裝 Nix 指令，看了一下安裝跟操作似乎都比 Homebrew 還要麻煩一點，不過既然都要變預設了，有空的時候再研究一下把 Homebrew 安裝的改到 Nix 上去
 
 * [Steam Deck 用 nix](https://akarat.xyz/steam-deck-nix/)
     
@@ -273,7 +273,7 @@ Line 用 Bottles 跑比較正常，執行器用 sys-wine，也能正常打字，
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707837022118/cd0f0901-eee4-43db-a9f0-63962adac9b3.jpeg align="center")
 
-### 其他套件
+### 一些推薦套件
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">📦</div>
