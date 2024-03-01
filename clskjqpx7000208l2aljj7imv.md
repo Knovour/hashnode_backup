@@ -79,7 +79,7 @@ VRAM 的部分需要進到 BIOS 裡設定，原本建議是 4GB，但想說我�
 
 ```bash
 sudo steamos-readonly disable
-sudo pacman-key --init && sudo pacman-key --populate archlinux
+sudo pacman-key --init && sudo pacman-key --populate
 ```
 
 <div data-node-type="callout">
