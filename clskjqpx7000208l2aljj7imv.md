@@ -71,7 +71,7 @@ VRAM 的部分需要進到 BIOS 裡設定，原本建議是 4GB，但想說我�
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707749275767/c0ce3db2-f68b-450b-876f-11200cc9cbdf.jpeg align="center")
 
-三是官方有對已安裝的套件刪掉部分檔案，比如附圖的 `stdio.h` 是包在 glibc 裡；雖然該套件已安裝，但大部分的檔案都刪掉了，若你裝的套件（比如 AUR）或是專案是需要編譯的話則會遇到很大的麻煩，當然你也可以選擇[超暴力解](https://github.com/Jguer/yay/issues/1910)，把所有東西重裝一遍，或是改用 brew 安裝
+三是官方有對已安裝的套件刪掉部分檔案，比如附圖的 `stdio.h` 是包在 glibc 裡；雖然該套件已安裝，但大部分的檔案都刪掉了，若你裝的套件（比如 AUR）或是專案是需要編譯的話則會遇到很大的麻煩，當然你也可以選擇[超暴力解](https://github.com/Jguer/yay/issues/1910)，把所有東西重裝一遍，或是改用 brew 安裝，但大部分的問題似乎只要重裝 `glibc` 跟 `linux-api-headers` 就能解決
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707749469834/fb66a15e-e4d9-4167-8c72-e5aa07f6a3ea.jpeg align="center")
 
