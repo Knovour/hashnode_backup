@@ -63,7 +63,7 @@ VRAM 的部分需要進到 BIOS 裡設定，原本建議是 4GB，但想說我�
 <div data-node-type="callout-text"><strong>Pacman</strong></div>
 </div>
 
-不建議直接用 pacman 安裝套件，官方說法是在系統更新時可能會洗掉安裝的東西，雖然我在這期間沒有遇到（我還把更新設成測試頻道），但其實有比可能會被洗掉更大的問題存在
+不建議直接用 pacman 安裝套件，官方說法是在系統更新時可能會洗掉安裝的東西，但其實有比可能會被洗掉更大的問題存在
 
 一是官方維護的套件版本大多偏舊，而 Steam 除了 Arch 之外還有另外維護自己的專屬套件與 library，所以換 mirrorlist 不是個明智的選擇
 
@@ -95,15 +95,6 @@ AUR 的套件管理器，照著 Binary 的方案安裝即可，但鑑於上述�
 </div>
 
 非 GUI 相關套件的最佳選擇，會安裝在 home 資料夾底下，所以重灌後不用擔心會洗掉，缺點是套件相依性會照 brew 的設定走，所以有可能會因為一個套件而連帶裝了大量相依的東西
-
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">📦</div>
-<div data-node-type="callout-text"><strong>Zap: </strong><a target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/srevinsaju/zap" style="pointer-events: none">https://github.com/srevinsaju/zap</a></div>
-</div>
-
-AppImage 的管理方案，不是每個程式都有出 Flatpak 版本（比如 [Heptabase](https://heptabase.com/)），所以只能選擇這個方案，一方面也是因為他可以直接抓 GitHub 打包的版本，也會把檔案放到 home 裡，也會幫你更新 menu
-
-雖然 AUR 裡有 zap-bin，但該版本過於老舊，bug 非常多；GitHub 裡的 `install.sh` 最新打包版本 bug 也不少，所以目前還是丟給 yay 管理
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">📦</div>
